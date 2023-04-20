@@ -77,20 +77,17 @@ export const changeFixedLegendSet = (legendSetName) => {
 export const expectFixedLegendSetToBe = (legendSetName) =>
     cy.getBySel(fixedLegendSetSelectEl).should('contain', legendSetName)
 
+export const expectSingleValueToHaveTextColor = (color) =>
+    cy.getBySel(singleValueTextEl).invoke('attr', 'fill').should('eq', color)
+
+export const expectSingleValueToNotHaveBackgroundColor = () =>
+    cy.getBySel(singleValueOutputEl).should('not.have.attr', 'style')
+
 export const expectSingleValueToHaveBackgroundColor = (color) =>
     cy
-        .getBySel(visualizationContainerEl)
-        .parent()
-        .should('have.css', 'background-color', color)
-
-export const expectSingleValueToNotHaveBackgroundColor = (color) =>
-    cy
-        .getBySel(visualizationContainerEl)
-        .parent()
-        .should('not.have.css', 'background-color', color)
-
-export const expectSingleValueToBeColor = (color) =>
-    cy.getBySel(singleValueOutputEl).invoke('attr', 'fill').should('eq', color)
+        .getBySel(singleValueOutputEl)
+        .invoke('attr', 'style')
+        .should('contain', `background-color: ${color}`)
 
 export const toggleLegendKeyOption = () =>
     cy.getBySel(optionsModalContentEl).contains('Show legend key').click()
