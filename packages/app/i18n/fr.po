@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 msgid "All items"
-msgstr ""
+msgstr "Tous les éléments"
 
 msgid "Rename successful"
 msgstr "Renommer avec succès"
@@ -54,7 +54,7 @@ msgid "Yes, leave"
 msgstr "Oui, quitter"
 
 msgid "Add to {{axisName}}"
-msgstr "Ajouter à {{nomdel'axe}} "
+msgstr "Ajouter à {{axisName}}"
 
 msgid ""
 "'{{visualizationType}}' is intended to show a single data item. Only the "
@@ -206,7 +206,7 @@ msgid "Only '{{number}}' in use"
 msgstr "Uniquement '{{number}}' utilisé"
 
 msgid "All items are selected"
-msgstr ""
+msgstr "Tous les éléments sont sélectionnés"
 
 msgid "Levels"
 msgstr "Niveaux"
@@ -342,7 +342,7 @@ msgid "Axis title"
 msgstr "Titre de l'axe"
 
 msgid "Auto generated from axis items"
-msgstr ""
+msgstr "Généré automatiquement à partir des éléments de l'axe"
 
 msgid "None"
 msgstr "Aucun"
@@ -354,7 +354,7 @@ msgid "Add a title"
 msgstr "Ajouter un titre"
 
 msgid "Reset style to default"
-msgstr ""
+msgstr "Réinitialiser le style par défaut"
 
 msgid "Base line"
 msgstr "Ligne de référence"
@@ -372,7 +372,7 @@ msgid "Basic"
 msgstr "De base"
 
 msgid "Extended"
-msgstr ""
+msgstr "Étendu"
 
 msgid "Bright"
 msgstr "Clair"
@@ -437,10 +437,10 @@ msgid "Number"
 msgstr "Nombre"
 
 msgid "Fix column headers to top of table"
-msgstr ""
+msgstr "Corriger les en-têtes de colonnes en haut du tableau"
 
 msgid "Fix row headers to left of table"
-msgstr ""
+msgstr "Correction des en-têtes de lignes à gauche du tableau"
 
 msgid "Font size"
 msgstr "Taille de la police"
@@ -662,6 +662,8 @@ msgid ""
 "Series options are not available when a series item has an \"All items\" "
 "selection"
 msgstr ""
+"Les options de série ne sont pas disponibles lorsqu'un élément de série "
+"comporte une sélection \"Tous les éléments\"."
 
 msgid "Value labels"
 msgstr "Étiquettes de valeur"
@@ -676,7 +678,7 @@ msgid "Show legend key"
 msgstr "Afficher la légende"
 
 msgid "Show series key"
-msgstr ""
+msgstr "Afficher la clé de la série"
 
 msgid "Skip rounding"
 msgstr "Ne pas arondir"
@@ -1014,6 +1016,8 @@ msgstr ""
 msgid ""
 "Base and target lines are available on the Axes tab for multi-axis charts"
 msgstr ""
+"Les lignes de base et cibles sont disponibles dans l'onglet Axes pour les "
+"graphiques multi-axes"
 
 msgid "Chart style"
 msgstr "Style de graphique"
@@ -1025,7 +1029,7 @@ msgid "Empty data"
 msgstr "Données vides"
 
 msgid "Horizontal (x) axis {{axisId}}"
-msgstr ""
+msgstr "Axe horizontal (x) {{axisId}}"
 
 msgid "Horizontal (x) axis"
 msgstr "Axe horizontal (x)"
@@ -1037,7 +1041,7 @@ msgid "Totals"
 msgstr "Totaux"
 
 msgid "Vertical (y) axis {{axisId}}"
-msgstr ""
+msgstr "Axe vertical (y) {{axisId}}"
 
 msgid "Vertical (y) axis"
 msgstr "Axe vertical (y)"
